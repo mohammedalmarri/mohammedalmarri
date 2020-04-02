@@ -1,9 +1,122 @@
-<html lang="en">
-  <head> </head>
-  <body>
-    <a href="index-1.html" target="myframe">MyWebsite</a>
-    <h1>Mohammed Al Marri</h1>
-    <br><br>
-    <h1>My first web site</h1>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-color: darkgrey">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">MSA</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Disabled</a
+            >
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <h1>My Form...</h1>
+    <form action="http://jkorpela.fi/cgi-bin/echo.cgi" method="POST">
+      User Name:<br />
+      <input type="text" name="usr" required /> <br />
+      Pwd:<br />
+      <input
+        type="password"
+        name="pwd"
+        minlength="8"
+        maxlength="22"
+        required
+      /><br />
+      Email:<br />
+      <input type="email" name="email" required /><br />
+      <input type="reset" class="btn btn-dark" /><br />
+      <input type="submit" value="Send " class="btn btn-dark" /><br />
+      <select class="btn btn-outline-dark">
+        <option value="" selected disabled hidden>Choose here</option>
+        <option value="1">NYC</option>
+        <option value="2">LND</option>
+        <option value="3">QTR</option>
+      </select>
+    </form>
+    <a href="MHDABDU.html">
+      <h1 type="button" class="btn btn-dark">Mohammed Abdu</h1>
+    </a>
+
+    <div class="card" style="width: 18rem;">
+      <img src="mohammed_abdu.jpeg" class="card-img-top" alt="alert" />
+      <div class="card-body">
+        <h5 class="card-title">Mohammed Abdu</h5>
+        <p class="card-text">
+          To go to Mohammed Abdu channel in Youtube click on the button.
+        </p>
+        <a
+          href="https://www.youtube.com/channel/UC5Zz-_s05U3HrBDfEKwyX9g"
+          class="btn btn-dark"
+          >Youtube</a
+        >
+      </div>
+    </div>
   </body>
 </html>
